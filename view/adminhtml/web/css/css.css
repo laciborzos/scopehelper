@@ -1,0 +1,20 @@
+a[href^="#hesta-warning"]:before {
+    content: "\26A0" !important;
+}
+
+a[href^="#hesta-info"]:before {
+    content: "\24D8" !important;
+}
+
+.hesta-info + .tooltip .help span:before {
+    content: "\24D8" !important;
+    font-size: 2.2rem !important;
+}
+
+.hesta-warning + .tooltip .help span:before {
+    content: "\26A0" !important;
+    font-size: 2.2rem !important;
+}
+.accordion .config .value.with-tooltip {
+    padding-right: 3.5rem !important;
+}
